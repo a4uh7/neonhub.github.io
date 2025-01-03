@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Hub - Gaming & Electronics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <a href="index.html">
+            <img src="neonhub.png" alt="Neon Hub Logo" class="nav-logo">
+        </a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="cart.html">Cart <span id="cart-count">0</span></a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+</header>
+
+    
+    
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="logo-container">
+                    <img src="neonhub.png" alt="NeonHub Logo" class="logo">
+                    <img src="bh.png" alt="Bahrain Flag" class="flag">
+                </div>
+                <h1>Welcome to <span>NeonHub</span></h1>
+                <p>Your premier destination for gaming and electronic accessories in Bahrain</p>
+            </div>
+        </section>
+
+        <section class="products">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <a href="product-thronomax-fireball.html">
+                        <h3>THRONOMAX FIREBALL</h3>
+                        <p class="arabic-name">مايكروفون ثرونوماكس مستخدم</p>
+                        <img src="fireball.png" alt="THRONOMAX FIREBALL" class="product-image">
+                    </a>
+                    <div class="product-footer">
+                        <div class="price-container">
+                            <div class="price">12.000BD</div>
+                            <div class="saudi-price">120.0SAR</div>
+                        </div>
+                        <button class="buy-button" onclick="addToCart('THRONOMAX FIREBALL', '12.000', 'fireball.png')">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <a href="product-razershark.html">
+                        <h3>Razer BlackShark V2C X</h3>
+                        <p class="arabic-name">سماعة ريزر للألعاب</p>
+                        <img src="razerh.png" alt="Razer BlackShark V2C X" class="product-image">
+                    </a>
+                    <div class="product-footer">
+                        <div class="price-container">
+                            <div class="price">18.000BD</div>
+                            <div class="saudi-price">180.0SAR</div>
+                        </div>
+                        <button class="buy-button" onclick="addToCart('Razer BlackShark V2C X', '18.000', 'razerh.png')">Buy Now</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <a href="product-razermini.html">
+                        <h3>Razer Viper Mini Mouse</h3>
+                        <p class="arabic-name">ماوس ريزر للألعاب</p>
+                        <img src="razerm.png" alt="Razer Viper Mini Mouse" class="product-image">
+                    </a>
+                    <div class="product-footer">
+                        <div class="price-container">
+                            <div class="price">10.000BD</div>
+                            <div class="saudi-price">100.0SAR</div>
+                        </div>
+                        <button class="buy-button" onclick="addToCart('Razer Viper Mini Mouse', '10.000', 'razerm.png')">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="neonhub.png" alt="Neon Hub Logo" class="footer-logo-img">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.instagram.com/neonhub_bh/" class="social-icon">IG</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Neon Hub. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
