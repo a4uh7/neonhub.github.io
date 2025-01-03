@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Neon Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="neonhub.png" alt="Neon Hub Logo" class="nav-logo">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="cart.html">Cart <span id="cart-count">0</span></a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="shop-hero">
+            <h1>Our Products</h1>
+        </section>
+
+        <section class="products">
+            <div class="product-grid">
+                <div class="product-card">
+                    <a href="product-thronomax-fireball.html">
+                        <h3>THRONOMAX FIREBALL</h3>
+                        <p class="arabic-name">مايكروفون ثرونوماكس مستخدم</p>
+                        <img src="fireball.png" alt="THRONOMAX FIREBALL" class="product-image">
+                    </a>
+                    <div class="product-footer">
+                        <div class="price-container">
+                            <div class="price">12.000BD</div>
+                            <div class="saudi-price">120.0SAR</div>
+                        </div>
+                        <button class="buy-button" onclick="addToCart('THRONOMAX FIREBALL', '12.000', 'fireball.png')">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <a href="product-razershark.html">
+                        <h3>Razer BlackShark V2C X</h3>
+                        <p class="arabic-name">سماعة ريزر للألعاب</p>
+                        <img src="razerh.png" alt="Razer BlackShark V2C X" class="product-image">
+                    </a>
+                    <div class="product-footer">
+                        <div class="price-container">
+                            <div class="price">18.000BD</div>
+                            <div class="saudi-price">180.0SAR</div>
+                        </div>
+                        <button class="buy-button" onclick="addToCart('Razer BlackShark V2C X', '18.000', 'razerh.png')">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <a href="product-razermini.html">
+                        <h3>Razer Viper Mini Mouse</h3>
+                        <p class="arabic-name">ماوس ريزر للألعاب</p>
+                        <img src="razerm.png" alt="Razer Viper Mini Mouse" class="product-image">
+                    </a>
+                    <div class="product-footer">
+                        <div class="price-container">
+                            <div class="price">10.000BD</div>
+                            <div class="saudi-price">100.0SAR</div>
+                        </div>
+                        <button class="buy-button" onclick="addToCart('Razer Viper Mini Mouse', '10.000', 'razerm.png')">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <a href="product-ps5charger.html">
+                        <h3>PS5 Charging Dock</h3>
+                        <p class="arabic-name">شاحن لكنترولر بليستيشن ٥</p>
+                        <img src="ps5charger.png" alt="PS5 Charging Dock" class="product-image">
+                    </a>
+                    <div class="product-footer">
+                        <div class="price-container">
+                            <div class="price">2.200BD</div>
+                            <div class="saudi-price">22.0SAR</div>
+                        </div>
+                        <button class="buy-button" onclick="addToCart('PS5 Charging Dock', '2.200', 'ps5charger.png')">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <a href="product-clock.html">
+                        <h3>Digital Clock</h3>
+                        <p class="arabic-name">الساعة الذكية</p>
+                        <img src="clock.png" alt="Digital Clock" class="product-image">
+                    </a>
+                    <div class="product-footer">
+                        <div class="price-container">
+                            <div class="price">3.200BD</div>
+                            <div class="saudi-price">32.0SAR</div>
+                        </div>
+                        <button class="buy-button" onclick="addToCart('Digital Clock', '3.200', 'clock.png')">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <a href="product-hair-clipper.html">
+                        <h3>Hair Clipper T9</h3>
+                        <p class="arabic-name">مكينة حلاقة احترافية</p>
+                        <img src="hc.png" alt="Hair Clipper T9" class="product-image">
+                    </a>
+                    <div class="product-footer">
+                        <div class="price-container">
+                            <div class="price">3.300BD</div>
+                            <div class="saudi-price">33.0SAR</div>
+                        </div>
+                        <button class="buy-button" onclick="addToCart('Hair Clipper T9', '3.300', 'hc.png')">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="neonhub.png" alt="Neon Hub Logo" class="footer-logo-img">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-icon">FB</a>
+                <a href="#" class="social-icon">IG</a>
+                <a href="#" class="social-icon">TW</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Neon Hub. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+

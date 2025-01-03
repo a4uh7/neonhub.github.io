@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock - Neon Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="neonhub.png" alt="Neon Hub Logo" class="nav-logo">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="cart.html">Cart <span id="cart-count">0</span></a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product-details">
+            <div class="product-image">
+                <img src="clock.png" alt="Digital Clock" id="product-image">
+            </div>
+            <div class="product-info">
+                <h1 id="product-name">Digital Clock</h1>
+                <p class="arabic-name" id="product-arabic-name">الساعة الذكية</p>
+                <div class="price-container">
+                    <div class="price" id="product-price">3.200BD</div>
+                    <div class="saudi-price" id="product-saudi-price">32.0SAR</div>
+                </div>
+                <p class="product-description" id="product-description">This sleek Digital Clock is more than just a timepiece. With its modern design and smart features, it's the perfect addition to any room. It displays time, date, and temperature, and even has an alarm function.</p>
+                <button class="buy-button" onclick="addToCart('Digital Clock', '3.200', 'clock.png')">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="neonhub.png" alt="Neon Hub Logo" class="footer-logo-img">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-icon">FB</a>
+                <a href="#" class="social-icon">IG</a>
+                <a href="#" class="social-icon">TW</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Neon Hub. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
